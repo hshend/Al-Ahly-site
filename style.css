@@ -1,0 +1,27 @@
+.container {
+    display: flex;
+    align-items: center; /* توسيط العناصر عمودياً */
+  }
+  
+  .container img {
+    margin-right: 10px; /* تعيين هامش يميني للصورة للفصل بينها وبين العنوان */
+  }
+
+  .audio-container {
+    position: relative;
+    width: 300px; /* تعديل العرض والارتفاع وفقًا لاحتياجاتك */
+    height: 100px;
+  }
+  
+  .audio-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* تعديل قيمة الشفافية هنا */
+  }
+
+  #header{
+    opacity: 30;;
+  }
